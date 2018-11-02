@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  height: 48px;
+  background-color: #ba000d;
+}
+.toggle-button {
+  height: 24px;
+  width: 24px;
+  padding: 12px;
+}
+.section-one {
+  padding: 50px;
+}
+.heading {
+  padding: 40px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ba000d;
+  text-align: center;
+}
+.paragraph {
+  color: #f44336;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: left;
+}
+.basic-button {
+  padding: 10px;
+  margin: 40px;
+  font-size: 18px;
+  background-color: #ba000d;
+  text-align: center;
+  width: max-content;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-two {
+  padding: 0 25px 50px 25px
+}
+.section-small {
+  width: 50%;
+  display: table-cell;
+  padding: 0 25px 0 25px;
+}
+.heading-small {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ba000d;
+  text-align: center;
+}
+.paragraph-small {
+  color: #f44336;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+}
