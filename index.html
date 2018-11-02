@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="favicon.ico"/>
     <style>
 			body {
+        font-family: 'Roboto', sans-serif;
 				margin: 0;
 			}
 			.navbar {
@@ -20,12 +21,54 @@
         background-color: #f44336;
         padding: 12px;
       }
+      .section {
+        padding: 50px;
+      }
+      .heading {
+        padding: 40px;
+        font-size: 48px;
+        font-weight: 700;
+        color: #ba000d;
+        text-align: center;
+      }
+      .paragraph {
+        color: #f44336;
+        font-weight: 500;
+        font-size: 32px;
+        text-align: left;
+      }
+      .basic-button {
+        padding: 10px;
+        margin: 40px;
+        font-size: 18px;
+        background-color: #ba000d;
+        text-align: center;
+        width: max-content;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
   </head>
   <body>
     <div class="navbar">
       <div class="toggle-button" onclick="toggle()">
         <img src="icons/baseline-menu-24px.svg" alt="">
+      </div>
+    </div>
+    <div class="section">
+      <img class="center" src="https://via.placeholder.com/414x414" alt="">
+      <div class="heading">
+        Lorem ipsum dolor sit amet,<br />
+        consectetur adipiscing elit
+      </div>
+      <div class="paragraph">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+      </div>
+      <div class="basic-button center">
+        Lorem ipsum dolor sit amet
       </div>
     </div>
     <script src="main.js"></script>
