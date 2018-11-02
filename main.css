@@ -48,7 +48,7 @@ body {
   margin-right: auto;
 }
 .section-two {
-  padding: 0 50px 50px 50px
+  padding: 0 50px 50px 50px;
 }
 .section-small {
   width: 100%;
@@ -138,6 +138,12 @@ body {
   }
   .section-small {
     height: 200px;
+  }
+  .section-sml-one {
+    float: left;
+  }
+  .section-sml-two {
+    float: right;
   }
 }
 
