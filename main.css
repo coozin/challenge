@@ -64,3 +64,23 @@ body {
   font-size: 18px;
   text-align: left;
 }
+.dropdown-area {
+  position: absolute;
+  top: 48px;
+  left: 0;
+}
+.dropdown-menu {
+  z-index: 2;
+  position: relative;
+  width: 200px;
+  height: auto;
+  top: 0;
+  left: 0;
+  background-color: lightgrey;
+}
+.menu-button {
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
