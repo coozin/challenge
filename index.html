@@ -9,18 +9,26 @@
   </head>
   <body>
     <div class="navbar">
-      <div class="toggle-button" onclick="toggle()">
+      <div id="toggle-button-section" class="toggle-button" onclick="toggle()">
         <img id="toggle-menu" class="toggle-menu" src="icons/baseline-menu-24px.svg" alt="">
         <img id="toggle-close" class="toggle-close" src="icons/baseline-close-24px.svg" alt="">
+      </div>
+      <div id="large-links" class="large-links">
+        <div class="large-link-button">
+          <a class="large-link" href="#section-1">Section One</a>
+        </div>
+        <div class="large-link-button">
+          <a class="large-link" href="#section-2">Section Two</a>
+        </div>
       </div>
     </div>
     <div class="dropdown-area">
       <div id="dropdown" class="dropdown-menu">
         <div class="menu-button">
-          <a href="#section-1" onclick="toggle()">Section One</a>
+          <a class="menu-link" href="#section-1" onclick="toggle()">Section One</a>
         </div>
         <div class="menu-button">
-          <a href="#section-2" onclick="toggle()">Section Two</a>
+          <a class="menu-link" href="#section-2" onclick="toggle()">Section Two</a>
         </div>
       </div>
     </div>
@@ -39,7 +47,7 @@
     </div>
     <div class="section-two" id="section-2">
       <div class="section-small">
-        <img class="center" src="https://via.placeholder.com/160x160" alt="">
+        <img class="small-img center" src="https://via.placeholder.com/160x160" alt="">
         <div class="heading-small">
           Lorem ipsum dolor sit amet,<br />
           consectetur adipiscing elit
@@ -49,7 +57,7 @@
         </div>
       </div>
       <div class="section-small">
-        <img class="center" src="https://via.placeholder.com/160x160" alt="">
+        <img class="small-img center" src="https://via.placeholder.com/160x160" alt="">
         <div class="heading-small">
           Lorem ipsum dolor sit amet,<br />
           consectetur adipiscing elit
