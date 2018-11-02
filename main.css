@@ -8,6 +8,7 @@ body {
   background-color: #ba000d;
 }
 .toggle-button {
+  cursor: pointer;
   height: 24px;
   width: 24px;
   padding: 12px;
@@ -29,6 +30,7 @@ body {
   text-align: left;
 }
 .basic-button {
+  cursor: pointer;
   padding: 10px;
   margin: 40px;
   font-size: 18px;
