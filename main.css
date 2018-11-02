@@ -7,7 +7,7 @@ body {
 .navbar {
   width: 100%;
   height: 48px;
-  background-color: #ba000d;
+  background-color: #ff9800;
 }
 .toggle-button {
   cursor: pointer;
@@ -17,17 +17,16 @@ body {
 }
 .section-one {
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0 25px 0;
+  background-color: #e8e8e8;
 }
 .heading {
   padding: 50px;
   font-size: 48px;
   font-weight: 700;
-  color: #ba000d;
   text-align: center;
 }
 .paragraph {
-  color: #f44336;
   font-weight: 500;
   font-size: 32px;
   text-align: left;
@@ -38,7 +37,7 @@ body {
   padding: 10px;
   margin: 40px;
   font-size: 18px;
-  background-color: #ba000d;
+  background-color: #ff9800;
   text-align: center;
   width: max-content;
 }
@@ -48,7 +47,7 @@ body {
   margin-right: auto;
 }
 .section-two {
-  padding: 0 50px 50px 50px;
+  padding: 50px;
 }
 .section-small {
   width: 100%;
@@ -58,11 +57,10 @@ body {
   padding: 20px;
   font-size: 24px;
   font-weight: 700;
-  color: #ba000d;
   text-align: center;
+  color: #ff9800;
 }
 .paragraph-small {
-  color: #f44336;
   font-weight: 500;
   font-size: 18px;
   text-align: left;
@@ -80,7 +78,7 @@ body {
   height: auto;
   top: 0;
   left: 0;
-  background-color: lightgrey;
+  background-color: white;
 }
 .menu-button {
   padding: 10px;
@@ -93,18 +91,22 @@ body {
   color: black;
 }
 .menu-button:hover {
-  background-color: grey;
+  background-color: #ff9800;
+}
+.menu-button:hover a {
+  color: white;
 }
 .large-link {
   float: left;
   padding: 15px;
   text-decoration: none;
   color: black;
-  background-color: lightgrey;
+  background-color: white;
   cursor: pointer;
 }
 .large-link:hover {
-  background-color: grey;
+  background-color: #ff9800;
+  color: white;
 }
 .big-img {
   height: 414px;
