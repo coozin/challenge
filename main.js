@@ -75,68 +75,28 @@ function changeLang (lang) {
 	var headingOne = document.getElementsByClassName('lang-heading')[0]
 	var headingTwo = document.getElementsByClassName('lang-heading')[1]
 	var headingThree = document.getElementsByClassName('lang-heading')[2]
-
 	var sectionOneFirst = document.getElementsByClassName('lang-sec-one')[0]
 	var sectionOneSecond = document.getElementsByClassName('lang-sec-one')[1]
 	var sectionTwoFirst = document.getElementsByClassName('lang-sec-two')[0]
 	var sectionTwoSecond = document.getElementsByClassName('lang-sec-two')[1]
-
 	var paragraphOne = document.getElementsByClassName('lang-paragraph')[0]
 	var paragraphTwo = document.getElementsByClassName('lang-paragraph')[1]
 	var paragraphThree = document.getElementsByClassName('lang-paragraph')[2]
-
 	var button = document.getElementsByClassName('lang-button')[0]
-
 	var title = document.getElementsByClassName('lang-title')[0]
 
-  switch (lang) {
-		case 'eng':
-			// english
-			headingOne.innerHTML = langObject.english.headingText
-			headingTwo.innerHTML = langObject.english.headingText
-			headingThree.innerHTML = langObject.english.headingText
-			sectionOneFirst.innerHTML = langObject.english.sectionOneText
-			sectionOneSecond.innerHTML = langObject.english.sectionOneText
-			sectionTwoFirst.innerHTML = langObject.english.sectionTwoText
-			sectionTwoSecond.innerHTML = langObject.english.sectionTwoText
-			paragraphOne.innerHTML = langObject.english.paragraphText
-			paragraphTwo.innerHTML = langObject.english.paragraphText
-			paragraphThree.innerHTML = langObject.english.paragraphText
-			button.innerHTML = langObject.english.buttonText
-			title.innerHTML = langObject.english.titleText
-
-			break;
-		case 'ita':
-			// italian
-			headingOne.innerHTML = langObject.italian.headingText
-			headingTwo.innerHTML = langObject.italian.headingText
-			headingThree.innerHTML = langObject.italian.headingText
-			sectionOneFirst.innerHTML = langObject.italian.sectionOneText
-			sectionOneSecond.innerHTML = langObject.italian.sectionOneText
-			sectionTwoFirst.innerHTML = langObject.italian.sectionTwoText
-			sectionTwoSecond.innerHTML = langObject.italian.sectionTwoText
-			paragraphOne.innerHTML = langObject.italian.paragraphText
-			paragraphTwo.innerHTML = langObject.italian.paragraphText
-			paragraphThree.innerHTML = langObject.italian.paragraphText
-			button.innerHTML = langObject.italian.buttonText
-			title.innerHTML = langObject.italian.titleText
-
-			break;
-		default:
-			// latin
-			headingOne.innerHTML = langObject.latin.headingText
-			headingTwo.innerHTML = langObject.latin.headingText
-			headingThree.innerHTML = langObject.latin.headingText
-			sectionOneFirst.innerHTML = langObject.latin.sectionOneText
-			sectionOneSecond.innerHTML = langObject.latin.sectionOneText
-			sectionTwoFirst.innerHTML = langObject.latin.sectionTwoText
-			sectionTwoSecond.innerHTML = langObject.latin.sectionTwoText
-			paragraphOne.innerHTML = langObject.latin.paragraphText
-			paragraphTwo.innerHTML = langObject.latin.paragraphText
-			paragraphThree.innerHTML = langObject.latin.paragraphText
-			button.innerHTML = langObject.latin.buttonText
-			title.innerHTML = langObject.latin.titleText
-	}
+	headingOne.innerHTML = langObject[lang].headingText
+	headingTwo.innerHTML = langObject[lang].headingText
+	headingThree.innerHTML = langObject[lang].headingText
+	sectionOneFirst.innerHTML = langObject[lang].sectionOneText
+	sectionOneSecond.innerHTML = langObject[lang].sectionOneText
+	sectionTwoFirst.innerHTML = langObject[lang].sectionTwoText
+	sectionTwoSecond.innerHTML = langObject[lang].sectionTwoText
+	paragraphOne.innerHTML = langObject[lang].paragraphText
+	paragraphTwo.innerHTML = langObject[lang].paragraphText
+	paragraphThree.innerHTML = langObject[lang].paragraphText
+	button.innerHTML = langObject[lang].buttonText
+	title.innerHTML = langObject[lang].titleText
     
   toggleLangDropdown()
 }
