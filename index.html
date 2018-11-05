@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>eyeo website developer challenge</title>
+    <title class="lang-title">eyeo website developer challenge</title>
     <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="stylesheet" href="main.css" type="text/css">
   </head>
@@ -20,10 +20,10 @@
       </div>
       <div id="large-links" class="large-links">
         <div class="large-link-button">
-          <a class="large-link" href="#section-1">Section One</a>
+          <a class="large-link lang-sec-one" href="#section-1">Section One</a>
         </div>
         <div class="large-link-button">
-          <a class="large-link" href="#section-2">Section Two</a>
+          <a class="large-link lang-sec-two" href="#section-2">Section Two</a>
         </div>
       </div>
     </div>
@@ -31,23 +31,23 @@
     <div class="dropdown-area">
       <div id="dropdown" class="dropdown-menu">
         <div class="menu-button" onclick="toggle()">
-          <a class="menu-link" href="#section-1">Section One</a>
+          <a class="menu-link lang-sec-one" href="#section-1">Section One</a>
         </div>
         <div class="menu-button" onclick="toggle()">
-          <a class="menu-link" href="#section-2">Section Two</a>
+          <a class="menu-link lang-sec-two" href="#section-2">Section Two</a>
         </div>
       </div>
     </div>
     <!-- dropdown for lang -->
     <div class="dropdown-area-lang">
       <div id="dropdown-lang" class="dropdown-menu">
-        <div class="menu-button" onclick="toggleLangDropdown()">
+        <div class="menu-button" onclick="changeLang()">
           <a class="menu-link">Latin</a>
         </div>
-        <div class="menu-button" onclick="toggleLangDropdown()">
+        <div class="menu-button" onclick="changeLang('eng')">
           <a class="menu-link">English</a>
         </div>
-        <div class="menu-button" onclick="toggleLangDropdown()">
+        <div class="menu-button" onclick="changeLang('ita')">
           <a class="menu-link">Italian</a>
         </div>
       </div>
@@ -58,14 +58,14 @@
         <img class="big-img center" src="https://via.placeholder.com/414x414" alt="">
       </div>
       <div class="content-wrapper">
-        <div class="heading">
+        <div class="heading lang-heading">
           Lorem ipsum dolor sit amet,
           consectetur adipiscing elit
         </div>
-        <div class="paragraph">
+        <div class="paragraph lang-paragraph">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
         </div>
-        <div class="basic-button center">
+        <div class="basic-button center lang-button">
           Lorem ipsum dolor sit amet
         </div>
       </div>
@@ -77,11 +77,11 @@
           <img class="small-img center" src="https://via.placeholder.com/160x160" alt="">
         </div>
         <div class="small-content-wrapper">
-          <div class="heading-small">
+          <div class="heading-small lang-heading">
             Lorem ipsum dolor sit amet,<br />
             consectetur adipiscing elit
           </div>
-          <div class="paragraph-small">
+          <div class="paragraph-small lang-paragraph">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
           </div>
         </div>
@@ -91,11 +91,11 @@
           <img class="small-img center" src="https://via.placeholder.com/160x160" alt="">
         </div>
         <div class="small-content-wrapper">
-          <div class="heading-small">
+          <div class="heading-small lang-heading">
             Lorem ipsum dolor sit amet,<br />
             consectetur adipiscing elit
           </div>
-          <div class="paragraph-small">
+          <div class="paragraph-small lang-paragraph">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
           </div>
         </div>
