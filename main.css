@@ -14,8 +14,20 @@ body {
   height: 24px;
   width: 24px;
   padding: 12px;
+  float: left;
 }
 .toggle-button:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: #c66900;
+}
+.toggle-button-lang {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  padding: 12px;
+  float: right;
+}
+.toggle-button-lang:hover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background-color: #c66900;
 }
@@ -80,6 +92,11 @@ body {
   top: 48px;
   left: 0;
 }
+.dropdown-area-lang {
+  position: absolute;
+  top: 48px;
+  right: 0;
+}
 .dropdown-menu {
   z-index: 2;
   position: relative;
@@ -90,7 +107,6 @@ body {
   background-color: white;
 }
 .menu-button {
-  padding: 10px;
   font-size: 18px;
   text-align: center;
   cursor: pointer;
@@ -98,6 +114,8 @@ body {
 .menu-link {
   text-decoration: none;
   color: black;
+  display: inline-block;
+  padding: 10px 50px;
 }
 .menu-button:hover {
   background-color: #ff9800;

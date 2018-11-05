@@ -14,6 +14,10 @@
         <img id="toggle-menu" class="toggle-menu" src="icons/baseline-menu-24px.svg" alt="">
         <img id="toggle-close" class="toggle-close" src="icons/baseline-close-24px.svg" alt="">
       </div>
+      <div id="toggle-button-section-lang" class="toggle-button-lang" onclick="toggleLangDropdown()">
+        <img id="toggle-lang" class="toggle-lang" src="icons/baseline-language-24px.svg" alt="">
+        <img id="toggle-close-lang" class="toggle-close" src="icons/baseline-close-24px.svg" alt="">
+      </div>
       <div id="large-links" class="large-links">
         <div class="large-link-button">
           <a class="large-link" href="#section-1">Section One</a>
@@ -23,14 +27,28 @@
         </div>
       </div>
     </div>
-    <!-- dropdown -->
+    <!-- dropdown for section -->
     <div class="dropdown-area">
       <div id="dropdown" class="dropdown-menu">
-        <div class="menu-button">
-          <a class="menu-link" href="#section-1" onclick="toggle()">Section One</a>
+        <div class="menu-button" onclick="toggle()">
+          <a class="menu-link" href="#section-1">Section One</a>
         </div>
-        <div class="menu-button">
-          <a class="menu-link" href="#section-2" onclick="toggle()">Section Two</a>
+        <div class="menu-button" onclick="toggle()">
+          <a class="menu-link" href="#section-2">Section Two</a>
+        </div>
+      </div>
+    </div>
+    <!-- dropdown for lang -->
+    <div class="dropdown-area-lang">
+      <div id="dropdown-lang" class="dropdown-menu">
+        <div class="menu-button" onclick="toggleLangDropdown()">
+          <a class="menu-link">Latin</a>
+        </div>
+        <div class="menu-button" onclick="toggleLangDropdown()">
+          <a class="menu-link">English</a>
+        </div>
+        <div class="menu-button" onclick="toggleLangDropdown()">
+          <a class="menu-link">Italian</a>
         </div>
       </div>
     </div>
